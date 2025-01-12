@@ -301,7 +301,7 @@ if (get('base')) {
         
         document.querySelector('[data-neg-list]').insertAdjacentHTML('beforeend', `
         <div data-neg-point>
-         <span data-name>${input.value}:</span>
+         <span data-name>${input.value}</span>
          <span data-span>0</span>
         </div>
         `)
