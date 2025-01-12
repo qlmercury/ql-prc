@@ -239,7 +239,7 @@ if (get('base')) {
             
             document.querySelector('[data-pos-list]').insertAdjacentHTML('beforeend', `
         <div data-pos-point>
-         <span data-nane>${input.value}</span>
+         <span data-name>${input.value}</span>
          <div data-pos-span data-span>0</div>
         </div>
         `)
