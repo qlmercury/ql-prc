@@ -239,7 +239,7 @@ if (get('base')) {
             
             document.querySelector('[data-pos-list]').insertAdjacentHTML('beforeend', `
         <div data-pos-point>
-         <span>${input.value}</span>
+         <span data-nane>${input.value}</span>
          <div data-pos-span data-span>0</div>
         </div>
         `)
@@ -291,7 +291,7 @@ if (get('base')) {
         
         document.querySelector('[data-neg-list]').insertAdjacentHTML('beforeend', `
         <div data-neg-point>
-         <span>${input.value}:</span>
+         <span data-name>${input.value}:</span>
          <span data-span>0</span>
         </div>
         `)
