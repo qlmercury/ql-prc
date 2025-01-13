@@ -183,7 +183,7 @@ if (get('base')) {
   document.querySelector('[data-body]').innerHTML = `
   
   
-  <div style="overflow-y: auto; height: 300px;">
+  <div style="overflow-y: auto; height: 350px;">
   
      <div class='text-second'>положительные:</div>
      <div>⠀</div>
