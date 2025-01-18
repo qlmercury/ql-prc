@@ -172,9 +172,6 @@ button, select, input {
 
 
 .block {
-  overflow-y: auto;
-  
-  height: 350px;
   
   
   display: flex;
